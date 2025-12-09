@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="page.css">
+        <h1>Student Table</h1>
     </head>
     <body>
         <script src="page.js"></script>
-        <h2>Demo Page!</h2>
-        <p id="demo">Click the button</p>
-        <button type="button" onclick="myFunction()">Try it</button>
+        <div>
+            <button onclick = "onAdd()">Add Student</button>
+            <button onclick = "onDelete()">Delete Student</button>
+        </div>
+        <table id="table"></table>
     </body>
 </html>
